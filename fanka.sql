@@ -155,7 +155,7 @@ CREATE TABLE `sedziowie` (
 -- Dumping data for table `sedziowie`
 --
 
-INSERT INTO `sedziowie` (`Nr_licencji`, `Imie`, `Nazwisko`) VALUES
+INSERT INTO `sędziowie` (`Nr_licencji`, `Imie`, `Nazwisko`) VALUES
 ('AC6776', 'Danuta', 'Sliwinska'),
 ('AE8520', 'Aleksandra', 'Zarecka'),
 ('AF0406', 'Anna', 'Kowalska'),
@@ -321,7 +321,7 @@ CREATE TABLE `wyniki` (
   `Data_meczu` varchar(10) DEFAULT NULL,
   `Rodzaj_meczu` varchar(1) DEFAULT NULL,
   `Gdzie` varchar(1) DEFAULT NULL,
-  `Id_druzyny` int(3) DEFAULT NULL,
+  `Id_drużyny` int(3) DEFAULT NULL,
   `Nr_licencji` varchar(6) DEFAULT NULL,
   `Bramki_zdobyte` int(1) DEFAULT NULL,
   `Bramki_stracone` int(1) DEFAULT NULL
